@@ -27,6 +27,7 @@
 		B6BCEC991BAEA7B500D28471 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BCEC981BAEA7B500D28471 /* SystemConfiguration.framework */; };
 		B6BCEC9D1BAEA83A00D28471 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BCEC9C1BAEA83A00D28471 /* libz.tbd */; };
 		B6BCEC9F1BAEA84F00D28471 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BCEC9E1BAEA84F00D28471 /* libsqlite3.tbd */; };
+		B6BCECA21BAEB8D100D28471 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BCECA11BAEB8D100D28471 /* SignupViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		B6BCEC981BAEA7B500D28471 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B6BCEC9C1BAEA83A00D28471 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B6BCEC9E1BAEA84F00D28471 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B6BCECA11BAEB8D100D28471 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				B6BCEC551BAEA6C100D28471 /* AppDelegate.swift */,
 				B6BCEC571BAEA6C100D28471 /* ViewController.swift */,
 				B6BCEC591BAEA6C100D28471 /* Main.storyboard */,
+				B6BCECA11BAEB8D100D28471 /* SignupViewController.swift */,
 				B6BCEC5F1BAEA6C100D28471 /* Assets.xcassets */,
 				B6BCEC611BAEA6C100D28471 /* LaunchScreen.storyboard */,
 				B6BCEC641BAEA6C100D28471 /* Info.plist */,
@@ -316,6 +319,7 @@
 			files = (
 				B6BCEC581BAEA6C100D28471 /* ViewController.swift in Sources */,
 				B6BCEC561BAEA6C100D28471 /* AppDelegate.swift in Sources */,
+				B6BCECA21BAEB8D100D28471 /* SignupViewController.swift in Sources */,
 				B6BCEC5E1BAEA6C100D28471 /* LunchApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
